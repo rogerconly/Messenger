@@ -5,6 +5,7 @@ target 'Messenger' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+# Firebase
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
@@ -12,7 +13,13 @@ pod 'Firebase/Database'
 pod 'Firebase/Analytics'
 # Add the pod for Firebase Cloud Messaging
 pod 'Firebase/Messaging'
-  # Pods for Messenger
+
+# Facebook
+pod 'FBSDKLoginKit'
+
+# Google
+pod 'GoogleSignIn'
+    
 
 end
 post_install do |pi|
